@@ -52,7 +52,7 @@ class player():
         self.playerX = playerX
         self.playerY = playerY
         self.playerX_change = playerX_change
-        self.playerY_change = playerY
+        self.playerY_change = playerY_change
         self.playerImg = pygame.image.load('knight.png')
         self.playerImg = pygame.transform.scale(self.playerImg, (50,50))
         self.rect = pygame.Rect(32,32,16,16)
